@@ -64,15 +64,15 @@
   </build>
 <distributionManagement>
     <repository>
-        <id>test</id>
-        <name>school release</name>
-        <url>http://18.191.84.107:8080/nexus-latest/content/repositories/releases/</url>
+        <id>releases</id>
+        <name>Releases</name>
+        <url>http://13.59.155.47:8888/nexus-latest/content/repositories/releases/</url>
     </repository>
 
      <snapshotRepository>
-        <id>test</id>
-        <name>school-snapshot</name>
-        <url>http://18.191.84.107:8080/nexus-latest/content/repositories/snapshots/</url>
+        <id>snapshots</id>
+        <name>Snapshots</name>
+        <url>http://13.59.155.47:8888/nexus-latest/content/repositories/snapshots/</url>
     </snapshotRepository>
 
 </distributionManagement>
